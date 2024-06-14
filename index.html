@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerChat</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/room.css">
+</head>
+<body>
+    
+    <div id="videos">
+        <video class="video-player" id="user-1" autoplay playsinline></video>
+        <video class="video-player" id="user-2" autoplay playsinline></video>
+    </div>
+
+    <div id="controls">
+
+        <div class="control-container" id="camera-btn">
+            <img src="icons/videocam.svg" />
+        </div>
+
+        <div class="control-container" id="mic-btn">
+            <img src="icons/mic.svg" />
+        </div>
+
+        <a href="lobby.html">
+            <div class="control-container" id="leave-btn">
+                <img src="icons/leave.svg" />
+            </div>
+        </a>
+
+    </div>
+
+</body>
+<script src="js/connEstablishment.js"></script>
+<script src="js/room.js"></script>
+</html>
